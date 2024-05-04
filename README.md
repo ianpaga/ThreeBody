@@ -13,7 +13,7 @@ The trajectory of the test particle is shown in green, while the trajectories of
 
 ## Requirements:
 - gfortran compiler
-- [yt project](https://yt-project.org/doc/index.html) for plots
+- [yt project](https://yt-project.org/) for plots
 - Python, Matplotlib, NumPy
 
 ## Compiling and running:
