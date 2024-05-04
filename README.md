@@ -23,7 +23,7 @@ Three possible outcomes are possible: direct impact (DI), disk formation (DF), o
 
   One can adjust the parameters num_of_case_lim and plot_interval in Global.f90 to increase the number of systems (possible trajectories) and the number of points for plotting each trajectory, respectively. To generate the scatter plots as shown above one needs a very large number of points to scan, roughly 1 million. The default values are plot_interval = 1 and num_of_case_lim = 10 to run in a few seconds in a local machine.
 
-# Plotting:
+## Plotting:
 - Run Three Body.ipynb (jupyter notebook)
 - This notebook will grab the data files in /data to make plots
 
