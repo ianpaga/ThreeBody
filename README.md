@@ -10,13 +10,31 @@ Three possible outcomes are possible: direct impact (DI), disk formation (DF), o
 <img width="814" alt="scan_mass_J" src="https://github.com/ianpaga/ThreeBody/assets/57350668/61be3abb-f87e-416f-82bc-730d30516870">
 
 ## Requirements:
-- C++ compiler
-- [Boost Library](https://www.boost.org/)
-- OpenMP
+- gfortran compiler
+- [yt project](https://yt-project.org/doc/index.html) for plots
 - Python, Matplotlib, NumPy
 
 ## Compiling and running:
-- Run ./chpc to compile
-- Run executable *.out
-- Outputs *.raw and *.sum are large files. Use the bash script datfiles.sh to slice the data into smaller *.dat files
-- Plot results with python potentials.py (see examples in /plots)
+- make clean
+- make
+- ./ThreeBody
+
+  Running this Fortran code will generate files in /data. 
+
+  One can adjust the parameters num_of_case_lim and plot_interval in Global.f90 to increase the number of systems (possible trajectories) and the number of points for plotting each trajectory, respectively. To generate the scatter plots as shown above one needs a very large number of points to scan, roughly 1 million. The default values are plot_interval = 1 and num_of_case_lim = 10 to run in a few seconds in a local machine.
+
+  Output in the prompt looks something like this:
+  
+     1
+   1.4439298862654444        5.6740917233363830E-002
+ DF   
+     ...
+  
+    10
+  0.53985258530032476       0.13975235488717419     
+ DI  
+
+# Plotting:
+- Run Three Body.ipynb (jupyter notebook)
+- This notebook will grab the data files in /data to make plots
+
