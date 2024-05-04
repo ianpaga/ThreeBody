@@ -6,9 +6,8 @@ Three possible outcomes are possible: direct impact (DI), disk formation (DF), o
 
 ## Figures:
 
-![angular](https://github.com/ianpaga/ThreeBody/assets/57350668/ee431964-cc4c-4459-ae8e-329bfdf80160)
-<img width="814" alt="scan_mass_J" src="https://github.com/ianpaga/ThreeBody/assets/57350668/61be3abb-f87e-416f-82bc-730d30516870">
 ![trajectory](https://github.com/ianpaga/ThreeBody/assets/57350668/caffeea7-c79d-4666-b18f-0ea6ca81faa4)
+<img width="814" alt="scan_mass_J" src="https://github.com/ianpaga/ThreeBody/assets/57350668/61be3abb-f87e-416f-82bc-730d30516870">
 
 ## Requirements:
 - C++ compiler
