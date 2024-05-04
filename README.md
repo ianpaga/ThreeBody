@@ -1,8 +1,8 @@
 Three-Body Problem: Ballistic trajectories
 ====
 
-Description: The code solves the Newtonian equations for the 3-body problem. The setup consists of two stars, the donor and the accreator, and a test particle of almost vanishing mass.
-Three possible outcomes are possible: direct impact (DI), disk formation (DF), or self-accretion (SA). If the code needs more time to find either of these outcomes, a fourth case is pritted NA.
+Description: The code solves the Newtonian equations for the 3-body problem. The setup consists of two stars, the donor and the accretor, and a test particle of almost vanishing mass.
+Three possible outcomes are possible: direct impact (DI), disk formation (DF), or self-accretion (SA). If the code needs more time to find either of these outcomes, a fourth case is printed as NA.
 
 ## Figures:
 
